@@ -111,7 +111,7 @@ struct Estudiante copiarEstudiante(struct Estudiante est) {
     return nuevoEst;
 }
 ```
-4. Creación de alias de tipos de estructuras
+### 4. Creación de alias de tipos de estructuras
 
 ```c
 typedef struct Estudiante Estudiante;
