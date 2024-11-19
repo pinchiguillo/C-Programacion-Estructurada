@@ -137,8 +137,9 @@ void modificarEstudiante(Estudiante *est) {
     est->edad = 30;
 }
 modificarEstudiante(&estudiante1);
+```
 c. Pasar una estructura por dirección como argumento
-
+```c
 void imprimirEstudiante2(Estudiante *est) {
     printf("Nombre: %s, Edad: %d, Promedio: %.2f\n", est->nombre, est->edad, est->promedio);
 }
